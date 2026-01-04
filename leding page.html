@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choi Market | Solusi Belanja Cerdas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom Teal/Cyan Gradient following the logo theme */
+        .gradient-bg {
+            background: linear-gradient(135deg, #0d9488 0%, #0891b2 100%);
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .logo-container {
+            width: 45px;
+            height: 45px;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+        /* Custom color for text matching the teal theme */
+        .text-teal-dark {
+            color: #134e4a;
+        }
+        .bg-teal-primary {
+            background-color: #0d9488;
+        }
+        .hover-bg-teal-dark:hover {
+            background-color: #0f766e;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigasi -->
+    <nav class="fixed w-full z-50 glass shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="logo-container bg-white shadow-sm flex items-center justify-center border border-teal-100">
+                    <img src="Gemini_Generated_Image_tk19f8tk19f8tk19.jpg" alt="Logo Choi Market" class="w-full h-full object-cover">
+                </div>
+                <span class="text-xl font-bold tracking-tight text-teal-dark">CHOI MARKET</span>
+            </div>
+            <a href="https://lynk.id/choimarket" target="_blank" class="bg-teal-primary hover-bg-teal-dark text-white px-5 py-2 rounded-full font-medium transition duration-300 transform hover:scale-105 shadow-md">
+                Belanja Sekarang
+            </a>
+        </div>
+    </nav>
+
+    <!-- Bagian Hero -->
+    <header class="pt-32 pb-20 px-6 gradient-bg text-white">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-12 md:mb-0 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                    Upgrade Gaya Hidupmu dengan Produk Pilihan.
+                </h1>
+                <p class="text-lg md:text-xl mb-8 opacity-90 leading-relaxed">
+                    Temukan koleksi gadget, perlengkapan rumah, dan aksesoris terbaik yang sudah dikurasi khusus untuk Anda di Choi Market.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
+                    <a href="https://lynk.id/choimarket" target="_blank" class="bg-white text-teal-600 px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:bg-gray-100 transition duration-300 text-center">
+                        Lihat Katalog Produk
+                    </a>
+                    <a href="#features" class="border-2 border-white border-opacity-50 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-teal-600 transition duration-300 text-center">
+                        Pelajari Lebih Lanjut
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative animate-float">
+                    <div class="absolute -inset-6 bg-white/20 rounded-full blur-3xl"></div>
+                    <div class="relative bg-white p-2 rounded-[2.5rem] shadow-2xl overflow-hidden w-64 h-64 md:w-80 md:h-80 flex items-center justify-center border-4 border-white/30">
+                        <img src="Gemini_Generated_Image_tk19f8tk19f8tk19.jpg" alt="Logo Utama Choi Market" class="w-full h-full object-cover rounded-[2rem]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Statistik -->
+    <section class="py-12 bg-white border-b">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <p class="text-3xl font-bold text-teal-600">500+</p>
+                    <p class="text-gray-500 text-sm">Produk Terkurasi</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-bold text-teal-600">100%</p>
+                    <p class="text-gray-500 text-sm">Kualitas Terjamin</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-bold text-teal-600">24/7</p>
+                    <p class="text-gray-500 text-sm">Akses Belanja</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-bold text-teal-600">Update</p>
+                    <p class="text-gray-500 text-sm">Setiap Hari</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitur -->
+    <section id="features" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Kenapa Memilih Choi Market?</h2>
+                <div class="w-20 h-1 bg-teal-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 text-center md:text-left">
+                    <div class="w-14 h-14 bg-teal-50 text-teal-600 rounded-lg flex items-center justify-center mb-6 text-2xl mx-auto md:mx-0">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Kualitas Pilihan</h3>
+                    <p class="text-gray-600 italic">"Bukan asal murah, tapi benar-benar berkualitas. Kami memilihkan produk dengan rating tertinggi."</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 text-center md:text-left">
+                    <div class="w-14 h-14 bg-cyan-50 text-cyan-600 rounded-lg flex items-center justify-center mb-6 text-2xl mx-auto md:mx-0">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Hemat Waktu</h3>
+                    <p class="text-gray-600 italic">"Tidak perlu membandingkan ratusan toko. Kami sudah mengumpulkan yang terbaik dalam satu link."</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 text-center md:text-left">
+                    <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-lg flex items-center justify-center mb-6 text-2xl mx-auto md:mx-0">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Promo Eksklusif</h3>
+                    <p class="text-gray-600 italic">"Dapatkan akses ke harga khusus dan voucher yang sering kami bagikan melalui Lynk.id kami."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian CTA -->
+    <section class="py-20 px-6 bg-slate-900 text-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-5">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#0d9488" d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.4,90,-15.8,88.4,-0.9C86.8,14,81,27.1,73.1,39.3C65.2,51.5,55.1,62.8,42.4,70.9C29.8,79.1,14.9,84.1,0.2,83.8C-14.5,83.5,-29,77.9,-41.8,69.9C-54.6,61.9,-65.7,51.5,-73.4,39.1C-81.1,26.7,-85.4,12.3,-85.1,-2.1C-84.8,-16.5,-80,-31,-71.4,-43.3C-62.8,-55.6,-50.5,-65.7,-37.1,-73.3C-23.7,-80.9,-9.2,-86,2.8,-90.8C14.8,-95.6,29.6,-83.6,44.7,-76.4Z" transform="translate(100 100)" />
+            </svg>
+        </div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-3xl md:text-5xl font-bold mb-8">Siap Berbelanja Cerdas?</h2>
+            <p class="text-xl mb-10 opacity-80">Klik tombol di bawah untuk diarahkan langsung ke halaman katalog resmi Choi Market di Lynk.id.</p>
+            <a href="https://lynk.id/choimarket" target="_blank" class="inline-flex items-center space-x-3 bg-teal-600 hover:bg-teal-500 text-white px-10 py-5 rounded-full font-bold text-xl shadow-2xl transition duration-300 transform hover:scale-105">
+                <span>Buka Lynk.id Sekarang</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <p class="mt-8 text-sm opacity-50">Bergabunglah dengan pelanggan cerdas lainnya.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 bg-white text-center border-t">
+        <div class="max-w-6xl mx-auto flex flex-col items-center">
+            <div class="w-16 h-16 mb-4 rounded-xl shadow-sm border p-1 bg-white">
+                <img src="Gemini_Generated_Image_tk19f8tk19f8tk19.jpg" alt="Logo Footer" class="w-full h-full object-cover rounded-lg">
+            </div>
+            <p class="font-bold text-teal-900 mb-2 tracking-widest uppercase text-xl">Choi Market</p>
+            
+            <!-- Kontak Section -->
+            <div class="mb-6">
+                <p class="text-gray-600 mb-1">Hubungi Kami:</p>
+                <div class="flex flex-col items-center space-y-1">
+                    <a href="https://www.instagram.com/cuanchoi" target="_blank" class="text-teal-600 font-semibold hover:underline">@cuanchoi</a>
+                    <a href="https://wa.me/6289512258020" target="_blank" class="text-teal-500 font-semibold hover:underline">0895-1225-8020</a>
+                </div>
+            </div>
+
+            <div class="flex justify-center space-x-6 mb-8 text-gray-400">
+                <a href="https://www.instagram.com/cuanchoi" target="_blank" class="hover:text-teal-600 transition"><i class="fa-brands fa-instagram text-2xl"></i></a>
+                <a href="https://wa.me/6289512258020" target="_blank" class="hover:text-teal-500 transition"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+                <a href="#" class="hover:text-teal-600 transition"><i class="fa-brands fa-tiktok text-2xl"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm">&copy; 2024 Choi Market. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId.length > 1) {
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
